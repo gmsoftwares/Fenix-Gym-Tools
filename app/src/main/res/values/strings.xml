@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fenix Gym Tools</string>
+    <string name="strVersao">v1.0</string>
+    <string name="strBtnBiceps">Bíceps</string>
+    <string name="strBtnCostas">Costas</string>
+    <string name="strBtnOmbro">Ombro</string>
+    <string name="strBtnPeito">Peito</string>
+    <string name="strBtnPernas">Pernas</string>
+    <string name="strBtnTriceps">Tríceps</string>
+</resources>
