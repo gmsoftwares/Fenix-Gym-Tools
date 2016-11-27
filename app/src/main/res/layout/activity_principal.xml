@@ -21,26 +21,19 @@
 
         <ImageView
             android:layout_width="match_parent"
-            app:srcCompat="@mipmap/ic_launcher"
             android:id="@+id/imageView"
             android:contentDescription=""
             tools:ignore="ContentDescription"
-            android:layout_height="130dp" />
-
-        <TextView
-            android:text="@string/strVersao"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/textView"
-            android:layout_marginLeft="240dp"
-            tools:ignore="RtlHardcoded" />
+            android:src="@mipmap/logofenixgymtools"
+            android:layout_height="90dp" />
 
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/scvCentro">
+        android:id="@+id/scvCentro"
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:orientation="vertical"
@@ -60,7 +53,7 @@
                 android:text="@string/strBtnCostas"
                 android:layout_width="match_parent"
                 android:id="@+id/btnCostas"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:layout_height="80dp"
                 android:textSize="30sp"
                 android:onClick="abrirCostas" />
@@ -70,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:id="@+id/BtnOmbro"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:textSize="30sp"
                 android:onClick="abrirOmbro" />
 
@@ -79,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:id="@+id/BtnPeito"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:textSize="30sp"
                 android:onClick="abrirPeito" />
 
@@ -88,7 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:id="@+id/BtnPernas"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:textSize="30sp"
                 android:onClick="abrirPernas" />
 
@@ -97,7 +90,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:id="@+id/btnTriceps"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:textSize="30sp"
                 android:onClick="abrirTriceps" />
         </LinearLayout>
